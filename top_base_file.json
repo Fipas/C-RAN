@@ -1,0 +1,542 @@
+{
+  "nodes": [
+    {
+      "cost": 0, 
+      "id": 0, 
+      "processing_power": 10000
+    }, 
+    {
+      "cost": 0, 
+      "id": 1, 
+      "processing_power": 10000
+    }, 
+    {
+      "cost": 0, 
+      "id": 2, 
+      "processing_power": 10000
+    }, 
+    {
+      "cost": 0, 
+      "id": 3, 
+      "processing_power": 10000
+    }, 
+    {
+      "cost": 0, 
+      "id": 4, 
+      "processing_power": 10000
+    }, 
+    {
+      "cost": 0, 
+      "id": 5, 
+      "processing_power": 10000
+    }, 
+    {
+      "cost": 0, 
+      "id": 6, 
+      "processing_power": 10000
+    }, 
+    {
+      "cost": 0, 
+      "id": 7, 
+      "processing_power": 10000
+    }, 
+    {
+      "cost": 0, 
+      "id": 8, 
+      "processing_power": 10000
+    }, 
+    {
+      "cost": 0, 
+      "id": 9, 
+      "processing_power": 10000
+    }, 
+    {
+      "cost": 0, 
+      "id": 10, 
+      "processing_power": 10000
+    }, 
+    {
+      "cost": 0, 
+      "id": 11, 
+      "processing_power": 10000
+    }, 
+    {
+      "cost": 0, 
+      "id": 12, 
+      "processing_power": 10000
+    }, 
+    {
+      "cost": 0, 
+      "id": 13, 
+      "processing_power": 10000
+    }, 
+    {
+      "cost": 0, 
+      "id": 14, 
+      "processing_power": 10000
+    }, 
+    {
+      "cost": 0, 
+      "id": 15, 
+      "processing_power": 10000
+    }, 
+    {
+      "cost": 0, 
+      "id": 16, 
+      "processing_power": 10000
+    }, 
+    {
+      "cost": 0, 
+      "id": 17, 
+      "processing_power": 10000
+    }, 
+    {
+      "cost": 0, 
+      "id": 18, 
+      "processing_power": 10000
+    }, 
+    {
+      "cost": 0, 
+      "id": 19, 
+      "processing_power": 10000
+    }, 
+    {
+      "cost": 0, 
+      "id": 20, 
+      "processing_power": 10000
+    }, 
+    {
+      "cost": 0, 
+      "id": 21, 
+      "processing_power": 10000
+    }, 
+    {
+      "cost": 0, 
+      "id": 22, 
+      "processing_power": 10000
+    }, 
+    {
+      "cost": 0, 
+      "id": 23, 
+      "processing_power": 10000
+    }, 
+    {
+      "cost": 0, 
+      "id": 24, 
+      "processing_power": 10000
+    }, 
+    {
+      "cost": 0, 
+      "id": 25, 
+      "processing_power": 10000
+    }, 
+    {
+      "cost": 0, 
+      "id": 26, 
+      "processing_power": 10000
+    }, 
+    {
+      "cost": 0, 
+      "id": 27, 
+      "processing_power": 10000
+    }, 
+    {
+      "cost": 0, 
+      "id": 28, 
+      "processing_power": 10000
+    }, 
+    {
+      "cost": 0, 
+      "id": 29, 
+      "processing_power": 10000
+    }
+  ], 
+  "pos": {
+    "0": [
+      0.6661668505959594, 
+      -0.6711622137039297
+    ], 
+    "1": [
+      -0.08922750196207359, 
+      0.6883677962119344
+    ], 
+    "2": [
+      0.08539388227521241, 
+      -0.11579344677071497
+    ], 
+    "3": [
+      -0.025909171712369474, 
+      0.850781074599602
+    ], 
+    "4": [
+      -0.1635470414760933, 
+      -0.47188027122596315
+    ], 
+    "5": [
+      -0.2940865579579897, 
+      0.5890724370156527
+    ], 
+    "6": [
+      0.01689687367439661, 
+      -0.5506567388017094
+    ], 
+    "7": [
+      -0.3303400984740669, 
+      -0.4528201941905007
+    ], 
+    "8": [
+      -0.589954426173718, 
+      0.8403823483717103
+    ], 
+    "9": [
+      0.22556141716680078, 
+      -0.6416660510535951
+    ], 
+    "10": [
+      -0.7336330497424419, 
+      0.7464159071315073
+    ], 
+    "11": [
+      -0.1313689502260851, 
+      -0.2720815181580457
+    ], 
+    "12": [
+      0.3277687799457681, 
+      -0.20495068880812903
+    ], 
+    "13": [
+      0.08775121733154255, 
+      0.3680796037582074
+    ], 
+    "14": [
+      0.8604079356655335, 
+      -0.6691273897089406
+    ], 
+    "15": [
+      -0.018945374157845807, 
+      -0.37983933502855105
+    ], 
+    "16": [
+      -0.060677839886838884, 
+      -0.028258491760023444
+    ], 
+    "17": [
+      -0.5265179653740751, 
+      0.6978406012321842
+    ], 
+    "18": [
+      0.44147585168005865, 
+      -0.6254980446324563
+    ], 
+    "19": [
+      0.19106209872311633, 
+      -0.3041779445692577
+    ], 
+    "20": [
+      -0.12346275931820694, 
+      0.21206584998638295
+    ], 
+    "21": [
+      -0.8881618988409159, 
+      0.8094032604759541
+    ], 
+    "22": [
+      -0.22712125434571606, 
+      -0.3841638455971992
+    ], 
+    "23": [
+      -0.1656352563831151, 
+      0.46818864486179324
+    ], 
+    "24": [
+      0.9999999999999999, 
+      -0.6130442404235317
+    ], 
+    "25": [
+      0.18008754276271968, 
+      0.15353492032875068
+    ], 
+    "26": [
+      0.3450046692747902, 
+      0.23924485973976495
+    ], 
+    "27": [
+      0.3462867951966089, 
+      -0.46993191492895603
+    ], 
+    "28": [
+      -0.325218068608048, 
+      -0.3268680433440301
+    ], 
+    "29": [
+      -0.08005669965290738, 
+      0.5185430689920897
+    ]
+  }, 
+  "links": [
+    {
+      "delay": 182, 
+      "capacity": 1, 
+      "to_id": 18, 
+      "length": 36.4, 
+      "type": "smf_fiber_1550nm", 
+      "from_id": 0
+    }, 
+    {
+      "delay": 202, 
+      "capacity": 1, 
+      "to_id": 14, 
+      "length": 40.400000000000006, 
+      "type": "smf_fiber_1550nm", 
+      "from_id": 0
+    }, 
+    {
+      "delay": 204, 
+      "capacity": 1, 
+      "to_id": 3, 
+      "length": 40.800000000000004, 
+      "type": "smf_fiber_1550nm", 
+      "from_id": 1
+    }, 
+    {
+      "delay": 310, 
+      "capacity": 1, 
+      "to_id": 23, 
+      "length": 62.0, 
+      "type": "smf_fiber_1550nm", 
+      "from_id": 1
+    }, 
+    {
+      "delay": 172, 
+      "capacity": 1, 
+      "to_id": 19, 
+      "length": 34.4, 
+      "type": "smf_fiber_1550nm", 
+      "from_id": 2
+    }, 
+    {
+      "delay": 86, 
+      "capacity": 1.25, 
+      "to_id": 25, 
+      "length": 25.8, 
+      "type": "micro_wave", 
+      "from_id": 2
+    }, 
+    {
+      "delay": 89, 
+      "capacity": 0.6, 
+      "to_id": 11, 
+      "length": 26.7, 
+      "type": "micro_wave", 
+      "from_id": 2
+    }, 
+    {
+      "delay": 131, 
+      "capacity": 1, 
+      "to_id": 11, 
+      "length": 26.200000000000003, 
+      "type": "smf_fiber_1550nm", 
+      "from_id": 4
+    }, 
+    {
+      "delay": 200, 
+      "capacity": 10, 
+      "to_id": 6, 
+      "length": 40.0, 
+      "type": "smf_fiber_1550nm", 
+      "from_id": 4
+    }, 
+    {
+      "delay": 296, 
+      "capacity": 1, 
+      "to_id": 7, 
+      "length": 59.2, 
+      "type": "smf_fiber_1550nm", 
+      "from_id": 4
+    }, 
+    {
+      "delay": 38, 
+      "capacity": 0.2, 
+      "to_id": 17, 
+      "length": 11.4, 
+      "type": "micro_wave", 
+      "from_id": 5
+    }, 
+    {
+      "delay": 82, 
+      "capacity": 1, 
+      "to_id": 29, 
+      "length": 16.400000000000002, 
+      "type": "smf_fiber_1310nm", 
+      "from_id": 5
+    }, 
+    {
+      "delay": 161, 
+      "capacity": 1, 
+      "to_id": 23, 
+      "length": 32.2, 
+      "type": "smf_fiber_1310nm", 
+      "from_id": 5
+    }, 
+    {
+      "delay": 231, 
+      "capacity": 1, 
+      "to_id": 9, 
+      "length": 46.2, 
+      "type": "smf_fiber_1550nm", 
+      "from_id": 6
+    }, 
+    {
+      "delay": 171, 
+      "capacity": 1, 
+      "to_id": 15, 
+      "length": 34.2, 
+      "type": "smf_fiber_1550nm", 
+      "from_id": 6
+    }, 
+    {
+      "delay": 348, 
+      "capacity": 1, 
+      "to_id": 28, 
+      "length": 69.60000000000001, 
+      "type": "smf_fiber_1550nm", 
+      "from_id": 7
+    }, 
+    {
+      "delay": 136, 
+      "capacity": 1, 
+      "to_id": 22, 
+      "length": 27.200000000000003, 
+      "type": "smf_fiber_1550nm", 
+      "from_id": 7
+    }, 
+    {
+      "delay": 231, 
+      "capacity": 1, 
+      "to_id": 17, 
+      "length": 46.2, 
+      "type": "smf_fiber_1550nm", 
+      "from_id": 8
+    }, 
+    {
+      "delay": 171, 
+      "capacity": 1, 
+      "to_id": 18, 
+      "length": 34.2, 
+      "type": "smf_fiber_1310nm", 
+      "from_id": 9
+    }, 
+    {
+      "delay": 143, 
+      "capacity": 1, 
+      "to_id": 17, 
+      "length": 28.6, 
+      "type": "smf_fiber_1550nm", 
+      "from_id": 10
+    }, 
+    {
+      "delay": 92, 
+      "capacity": 1.25, 
+      "to_id": 21, 
+      "length": 27.599999999999998, 
+      "type": "micro_wave", 
+      "from_id": 10
+    }, 
+    {
+      "delay": 169, 
+      "capacity": 1, 
+      "to_id": 28, 
+      "length": 33.800000000000004, 
+      "type": "smf_fiber_1550nm", 
+      "from_id": 11
+    }, 
+    {
+      "delay": 182, 
+      "capacity": 1, 
+      "to_id": 19, 
+      "length": 36.4, 
+      "type": "smf_fiber_1310nm", 
+      "from_id": 12
+    }, 
+    {
+      "delay": 267, 
+      "capacity": 1, 
+      "to_id": 25, 
+      "length": 53.400000000000006, 
+      "type": "smf_fiber_1550nm", 
+      "from_id": 13
+    }, 
+    {
+      "delay": 199, 
+      "capacity": 1, 
+      "to_id": 29, 
+      "length": 39.800000000000004, 
+      "type": "smf_fiber_1310nm", 
+      "from_id": 13
+    }, 
+    {
+      "delay": 113, 
+      "capacity": 1, 
+      "to_id": 24, 
+      "length": 22.6, 
+      "type": "smf_fiber_1310nm", 
+      "from_id": 14
+    }, 
+    {
+      "delay": 254, 
+      "capacity": 1, 
+      "to_id": 19, 
+      "length": 50.800000000000004, 
+      "type": "smf_fiber_1550nm", 
+      "from_id": 15
+    }, 
+    {
+      "delay": 99, 
+      "capacity": 2, 
+      "to_id": 22, 
+      "length": 29.7, 
+      "type": "micro_wave", 
+      "from_id": 15
+    }, 
+    {
+      "delay": 96, 
+      "capacity": 1, 
+      "to_id": 20, 
+      "length": 19.200000000000003, 
+      "type": "smf_fiber_1550nm", 
+      "from_id": 16
+    }, 
+    {
+      "delay": 65, 
+      "capacity": 0.3, 
+      "to_id": 27, 
+      "length": 19.5, 
+      "type": "micro_wave", 
+      "from_id": 18
+    }, 
+    {
+      "delay": 44, 
+      "capacity": 1, 
+      "to_id": 27, 
+      "length": 8.8, 
+      "type": "smf_fiber_1550nm", 
+      "from_id": 19
+    }, 
+    {
+      "delay": 66, 
+      "capacity": 1, 
+      "to_id": 23, 
+      "length": 13.200000000000001, 
+      "type": "smf_fiber_1310nm", 
+      "from_id": 20
+    }, 
+    {
+      "delay": 109, 
+      "capacity": 1, 
+      "to_id": 26, 
+      "length": 21.8, 
+      "type": "smf_fiber_1550nm", 
+      "from_id": 25
+    }
+  ]
+}
