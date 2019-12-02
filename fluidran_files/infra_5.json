@@ -1,0 +1,615 @@
+{
+    "user": "John",
+    "nodes": [
+        {
+            "nodeNumber": 0,
+            "nodeType": "Forwarding"
+        },
+        {
+            "nodeNumber": 3,
+            "nodeType": "Forwarding"
+        },
+        {
+            "nodeNumber": 4,
+            "nodeType": "Forwarding"
+        },
+        {
+            "nodeNumber": 5,
+            "nodeType": "Forwarding"
+        },
+        {
+            "nodeNumber": 7,
+            "nodeType": "Forwarding"
+        },
+        {
+            "nodeNumber": 10,
+            "nodeType": "Forwarding"
+        },
+        {
+            "nodeNumber": 11,
+            "nodeType": "Forwarding"
+        },
+        {
+            "nodeNumber": 12,
+            "nodeType": "Forwarding"
+        },
+        {
+            "nodeNumber": 13,
+            "nodeType": "Forwarding"
+        },
+        {
+            "nodeNumber": 14,
+            "nodeType": "Forwarding"
+        },
+        {
+            "nodeNumber": 17,
+            "nodeType": "Forwarding"
+        },
+        {
+            "nodeNumber": 18,
+            "nodeType": "Forwarding"
+        },
+        {
+            "nodeNumber": 19,
+            "nodeType": "Forwarding"
+        },
+        {
+            "nodeNumber": 21,
+            "nodeType": "Forwarding"
+        },
+        {
+            "nodeNumber": 22,
+            "nodeType": "Forwarding"
+        },
+        {
+            "nodeNumber": 23,
+            "nodeType": "Forwarding"
+        },
+        {
+            "nodeNumber": 26,
+            "nodeType": "Forwarding"
+        },
+        {
+            "nodeNumber": 27,
+            "nodeType": "Forwarding"
+        },
+        {
+            "nodeNumber": 8,
+            "nodeType": "MEC_Server",
+            "vms": [
+                {
+                    "vmNumber": 1,
+                    "cpu": 8,
+                    "ram": 7322,
+                    "containers": [
+                        {
+                            "ctnNumber": 1,
+                            "cpu": 0.5,
+                            "ram": 512
+                        },
+                        {
+                            "ctnNumber": 3,
+                            "cpu": 0.5,
+                            "ram": 512
+                        },
+                        {
+                            "ctnNumber": 5,
+                            "cpu": 0.5,
+                            "ram": 512
+                        },
+                        {
+                            "ctnNumber": 7,
+                            "cpu": 0.5,
+                            "ram": 512
+                        },
+                        {
+                            "ctnNumber": 9,
+                            "cpu": 0.5,
+                            "ram": 512
+                        },
+                        {
+                            "ctnNumber": 11,
+                            "cpu": 0.5,
+                            "ram": 512
+                        },
+                        {
+                            "ctnNumber": 13,
+                            "cpu": 0.5,
+                            "ram": 512
+                        },
+                        {
+                            "ctnNumber": 15,
+                            "cpu": 0.5,
+                            "ram": 512
+                        },
+                        {
+                            "ctnNumber": 17,
+                            "cpu": 0.5,
+                            "ram": 512
+                        },
+                        {
+                            "ctnNumber": 19,
+                            "cpu": 0.5,
+                            "ram": 512
+                        },
+                        {
+                            "ctnNumber": 21,
+                            "cpu": 0.5,
+                            "ram": 512
+                        },
+                        {
+                            "ctnNumber": 23,
+                            "cpu": 0.5,
+                            "ram": 512
+                        },
+                        {
+                            "ctnNumber": 25,
+                            "cpu": 0.5,
+                            "ram": 512
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "nodeNumber": 1,
+            "nodeType": "Base_Station",
+            "vms": [
+                {
+                    "vmNumber": 2,
+                    "cpu": 1,
+                    "ram": 564,
+                    "containers": [
+                        {
+                            "ctnNumber": 2,
+                            "cpu": 0.2,
+                            "ram": 512
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "nodeNumber": 2,
+            "nodeType": "Base_Station",
+            "vms": [
+                {
+                    "vmNumber": 3,
+                    "cpu": 1,
+                    "ram": 564,
+                    "containers": [
+                        {
+                            "ctnNumber": 4,
+                            "cpu": 0.2,
+                            "ram": 512
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "nodeNumber": 6,
+            "nodeType": "Base_Station",
+            "vms": [
+                {
+                    "vmNumber": 4,
+                    "cpu": 1,
+                    "ram": 564,
+                    "containers": [
+                        {
+                            "ctnNumber": 6,
+                            "cpu": 0.2,
+                            "ram": 512
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "nodeNumber": 9,
+            "nodeType": "Base_Station",
+            "vms": [
+                {
+                    "vmNumber": 5,
+                    "cpu": 1,
+                    "ram": 564,
+                    "containers": [
+                        {
+                            "ctnNumber": 8,
+                            "cpu": 0.2,
+                            "ram": 512
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "nodeNumber": 15,
+            "nodeType": "Base_Station",
+            "vms": [
+                {
+                    "vmNumber": 6,
+                    "cpu": 1,
+                    "ram": 564,
+                    "containers": [
+                        {
+                            "ctnNumber": 10,
+                            "cpu": 0.2,
+                            "ram": 512
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "nodeNumber": 16,
+            "nodeType": "Base_Station",
+            "vms": [
+                {
+                    "vmNumber": 7,
+                    "cpu": 1,
+                    "ram": 564,
+                    "containers": [
+                        {
+                            "ctnNumber": 12,
+                            "cpu": 0.2,
+                            "ram": 512
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "nodeNumber": 20,
+            "nodeType": "Base_Station",
+            "vms": [
+                {
+                    "vmNumber": 8,
+                    "cpu": 1,
+                    "ram": 564,
+                    "containers": [
+                        {
+                            "ctnNumber": 14,
+                            "cpu": 0.2,
+                            "ram": 512
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "nodeNumber": 24,
+            "nodeType": "Base_Station",
+            "vms": [
+                {
+                    "vmNumber": 9,
+                    "cpu": 1,
+                    "ram": 564,
+                    "containers": [
+                        {
+                            "ctnNumber": 16,
+                            "cpu": 0.2,
+                            "ram": 512
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "nodeNumber": 25,
+            "nodeType": "Base_Station",
+            "vms": [
+                {
+                    "vmNumber": 10,
+                    "cpu": 1,
+                    "ram": 564,
+                    "containers": [
+                        {
+                            "ctnNumber": 18,
+                            "cpu": 0.2,
+                            "ram": 512
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "nodeNumber": 28,
+            "nodeType": "Base_Station",
+            "vms": [
+                {
+                    "vmNumber": 11,
+                    "cpu": 1,
+                    "ram": 564,
+                    "containers": [
+                        {
+                            "ctnNumber": 20,
+                            "cpu": 0.2,
+                            "ram": 512
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "nodeNumber": 29,
+            "nodeType": "Base_Station",
+            "vms": [
+                {
+                    "vmNumber": 12,
+                    "cpu": 1,
+                    "ram": 1690,
+                    "containers": [
+                        {
+                            "ctnNumber": 22,
+                            "cpu": 0.2,
+                            "ram": 512
+                        },
+                        {
+                            "ctnNumber": 24,
+                            "cpu": 0.2,
+                            "ram": 512
+                        },
+                        {
+                            "ctnNumber": 26,
+                            "cpu": 0.2,
+                            "ram": 512
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "links": [
+        {
+            "linkType": "Nodes",
+            "Connections": [
+                {
+                    "linkNumber": 1,
+                    "from_node": 0,
+                    "to_node": 8,
+                    "delay": 0.122,
+                    "capacity": 50.0
+                },
+                {
+                    "linkNumber": 3,
+                    "from_node": 0,
+                    "to_node": 13,
+                    "delay": 0.296,
+                    "capacity": 50.0
+                },
+                {
+                    "linkNumber": 5,
+                    "from_node": 1,
+                    "to_node": 3,
+                    "delay": 0.191,
+                    "capacity": 50.0
+                },
+                {
+                    "linkNumber": 7,
+                    "from_node": 2,
+                    "to_node": 19,
+                    "delay": 0.233,
+                    "capacity": 50.0
+                },
+                {
+                    "linkNumber": 9,
+                    "from_node": 3,
+                    "to_node": 13,
+                    "delay": 0.35,
+                    "capacity": 50.0
+                },
+                {
+                    "linkNumber": 11,
+                    "from_node": 3,
+                    "to_node": 6,
+                    "delay": 0.251,
+                    "capacity": 50.0
+                },
+                {
+                    "linkNumber": 13,
+                    "from_node": 3,
+                    "to_node": 7,
+                    "delay": 0.35,
+                    "capacity": 50.0
+                },
+                {
+                    "linkNumber": 15,
+                    "from_node": 4,
+                    "to_node": 20,
+                    "delay": 0.317,
+                    "capacity": 50.0
+                },
+                {
+                    "linkNumber": 17,
+                    "from_node": 4,
+                    "to_node": 12,
+                    "delay": 0.216,
+                    "capacity": 50.0
+                },
+                {
+                    "linkNumber": 19,
+                    "from_node": 4,
+                    "to_node": 22,
+                    "delay": 0.278,
+                    "capacity": 50.0
+                },
+                {
+                    "linkNumber": 21,
+                    "from_node": 5,
+                    "to_node": 12,
+                    "delay": 0.303,
+                    "capacity": 50.0
+                },
+                {
+                    "linkNumber": 23,
+                    "from_node": 6,
+                    "to_node": 25,
+                    "delay": 0.222,
+                    "capacity": 50.0
+                },
+                {
+                    "linkNumber": 25,
+                    "from_node": 7,
+                    "to_node": 26,
+                    "delay": 0.26,
+                    "capacity": 50.0
+                },
+                {
+                    "linkNumber": 27,
+                    "from_node": 8,
+                    "to_node": 10,
+                    "delay": 0.092,
+                    "capacity": 50.0
+                },
+                {
+                    "linkNumber": 29,
+                    "from_node": 8,
+                    "to_node": 27,
+                    "delay": 0.098,
+                    "capacity": 50.0
+                },
+                {
+                    "linkNumber": 31,
+                    "from_node": 8,
+                    "to_node": 28,
+                    "delay": 0.131,
+                    "capacity": 50.0
+                },
+                {
+                    "linkNumber": 33,
+                    "from_node": 9,
+                    "to_node": 24,
+                    "delay": 0.156,
+                    "capacity": 50.0
+                },
+                {
+                    "linkNumber": 35,
+                    "from_node": 9,
+                    "to_node": 19,
+                    "delay": 0.038,
+                    "capacity": 62.5
+                },
+                {
+                    "linkNumber": 37,
+                    "from_node": 9,
+                    "to_node": 21,
+                    "delay": 0.205,
+                    "capacity": 50.0
+                },
+                {
+                    "linkNumber": 39,
+                    "from_node": 10,
+                    "to_node": 27,
+                    "delay": 0.02,
+                    "capacity": 50.0
+                },
+                {
+                    "linkNumber": 41,
+                    "from_node": 10,
+                    "to_node": 15,
+                    "delay": 0.04,
+                    "capacity": 20.0
+                },
+                {
+                    "linkNumber": 43,
+                    "from_node": 11,
+                    "to_node": 17,
+                    "delay": 0.177,
+                    "capacity": 50.0
+                },
+                {
+                    "linkNumber": 45,
+                    "from_node": 11,
+                    "to_node": 18,
+                    "delay": 0.18,
+                    "capacity": 50.0
+                },
+                {
+                    "linkNumber": 47,
+                    "from_node": 12,
+                    "to_node": 29,
+                    "delay": 0.197,
+                    "capacity": 50.0
+                },
+                {
+                    "linkNumber": 49,
+                    "from_node": 13,
+                    "to_node": 24,
+                    "delay": 0.157,
+                    "capacity": 50.0
+                },
+                {
+                    "linkNumber": 51,
+                    "from_node": 13,
+                    "to_node": 22,
+                    "delay": 0.35,
+                    "capacity": 50.0
+                },
+                {
+                    "linkNumber": 53,
+                    "from_node": 14,
+                    "to_node": 16,
+                    "delay": 0.294,
+                    "capacity": 50.0
+                },
+                {
+                    "linkNumber": 55,
+                    "from_node": 14,
+                    "to_node": 29,
+                    "delay": 0.203,
+                    "capacity": 50.0
+                },
+                {
+                    "linkNumber": 57,
+                    "from_node": 16,
+                    "to_node": 18,
+                    "delay": 0.283,
+                    "capacity": 50.0
+                },
+                {
+                    "linkNumber": 59,
+                    "from_node": 16,
+                    "to_node": 26,
+                    "delay": 0.196,
+                    "capacity": 50.0
+                },
+                {
+                    "linkNumber": 61,
+                    "from_node": 18,
+                    "to_node": 25,
+                    "delay": 0.254,
+                    "capacity": 50.0
+                },
+                {
+                    "linkNumber": 63,
+                    "from_node": 18,
+                    "to_node": 20,
+                    "delay": 0.137,
+                    "capacity": 50.0
+                },
+                {
+                    "linkNumber": 65,
+                    "from_node": 20,
+                    "to_node": 23,
+                    "delay": 0.35,
+                    "capacity": 50.0
+                },
+                {
+                    "linkNumber": 67,
+                    "from_node": 24,
+                    "to_node": 29,
+                    "delay": 0.176,
+                    "capacity": 50.0
+                },
+                {
+                    "linkNumber": 69,
+                    "from_node": 26,
+                    "to_node": 28,
+                    "delay": 0.058,
+                    "capacity": 62.5
+                }
+            ]
+        }
+    ]
+}

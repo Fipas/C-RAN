@@ -1,0 +1,197 @@
+{
+    "services": [
+        {
+            "flows": [
+                {
+                    "flowIdentifier": 1,
+                    "bandwidth": 7.725,
+                    "nodes": [
+                        8,
+                        28,
+                        26,
+                        7,
+                        3,
+                        1
+                    ],
+                    "ctn_source_num": 1,
+                    "ctn_target_num": 2
+                },
+                {
+                    "flowIdentifier": 2,
+                    "bandwidth": 7.725,
+                    "nodes": [
+                        8,
+                        0,
+                        13,
+                        24,
+                        9,
+                        19,
+                        2
+                    ],
+                    "ctn_source_num": 3,
+                    "ctn_target_num": 4
+                },
+                {
+                    "flowIdentifier": 3,
+                    "bandwidth": 7.725,
+                    "nodes": [
+                        8,
+                        0,
+                        13,
+                        24,
+                        29,
+                        12,
+                        4,
+                        20,
+                        18,
+                        16,
+                        26,
+                        7,
+                        3,
+                        6
+                    ],
+                    "ctn_source_num": 5,
+                    "ctn_target_num": 6
+                },
+                {
+                    "flowIdentifier": 4,
+                    "bandwidth": 7.725,
+                    "nodes": [
+                        8,
+                        0,
+                        13,
+                        24,
+                        9
+                    ],
+                    "ctn_source_num": 7,
+                    "ctn_target_num": 8
+                },
+                {
+                    "flowIdentifier": 5,
+                    "bandwidth": 7.725,
+                    "nodes": [
+                        8,
+                        10,
+                        15
+                    ],
+                    "ctn_source_num": 9,
+                    "ctn_target_num": 10
+                },
+                {
+                    "flowIdentifier": 6,
+                    "bandwidth": 7.725,
+                    "nodes": [
+                        8,
+                        28,
+                        26,
+                        16
+                    ],
+                    "ctn_source_num": 11,
+                    "ctn_target_num": 12
+                },
+                {
+                    "flowIdentifier": 7,
+                    "bandwidth": 7.725,
+                    "nodes": [
+                        8,
+                        0,
+                        13,
+                        24,
+                        29,
+                        12,
+                        4,
+                        20
+                    ],
+                    "ctn_source_num": 13,
+                    "ctn_target_num": 14
+                },
+                {
+                    "flowIdentifier": 8,
+                    "bandwidth": 10.0,
+                    "nodes": [
+                        8,
+                        0,
+                        13,
+                        22,
+                        4,
+                        20
+                    ],
+                    "ctn_source_num": 15,
+                    "ctn_target_num": 16
+                },
+                {
+                    "flowIdentifier": 9,
+                    "bandwidth": 7.725,
+                    "nodes": [
+                        8,
+                        0,
+                        13,
+                        24
+                    ],
+                    "ctn_source_num": 17,
+                    "ctn_target_num": 18
+                },
+                {
+                    "flowIdentifier": 10,
+                    "bandwidth": 7.725,
+                    "nodes": [
+                        8,
+                        0,
+                        13,
+                        24,
+                        29,
+                        12,
+                        4,
+                        20,
+                        18,
+                        16,
+                        26,
+                        7,
+                        3,
+                        6,
+                        25
+                    ],
+                    "ctn_source_num": 19,
+                    "ctn_target_num": 20
+                },
+                {
+                    "flowIdentifier": 11,
+                    "bandwidth": 7.725,
+                    "nodes": [
+                        8,
+                        28
+                    ],
+                    "ctn_source_num": 21,
+                    "ctn_target_num": 22
+                },
+                {
+                    "flowIdentifier": 12,
+                    "bandwidth": 3.65,
+                    "nodes": [
+                        8,
+                        0,
+                        13,
+                        24,
+                        29
+                    ],
+                    "ctn_source_num": 23,
+                    "ctn_target_num": 24
+                },
+                {
+                    "flowIdentifier": 13,
+                    "bandwidth": 4.075,
+                    "nodes": [
+                        8,
+                        28,
+                        26,
+                        16,
+                        14,
+                        29
+                    ],
+                    "ctn_source_num": 25,
+                    "ctn_target_num": 26
+                }
+            ]
+        }
+    ]
+}

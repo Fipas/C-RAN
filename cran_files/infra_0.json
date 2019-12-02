@@ -1,0 +1,519 @@
+{
+    "user": "John",
+    "nodes": [
+        {
+            "nodeNumber": 2,
+            "nodeType": "Forwarding"
+        },
+        {
+            "nodeNumber": 5,
+            "nodeType": "Forwarding"
+        },
+        {
+            "nodeNumber": 7,
+            "nodeType": "Forwarding"
+        },
+        {
+            "nodeNumber": 8,
+            "nodeType": "Forwarding"
+        },
+        {
+            "nodeNumber": 10,
+            "nodeType": "Forwarding"
+        },
+        {
+            "nodeNumber": 11,
+            "nodeType": "Forwarding"
+        },
+        {
+            "nodeNumber": 12,
+            "nodeType": "Forwarding"
+        },
+        {
+            "nodeNumber": 13,
+            "nodeType": "Forwarding"
+        },
+        {
+            "nodeNumber": 15,
+            "nodeType": "Forwarding"
+        },
+        {
+            "nodeNumber": 16,
+            "nodeType": "Forwarding"
+        },
+        {
+            "nodeNumber": 17,
+            "nodeType": "Forwarding"
+        },
+        {
+            "nodeNumber": 18,
+            "nodeType": "Forwarding"
+        },
+        {
+            "nodeNumber": 19,
+            "nodeType": "Forwarding"
+        },
+        {
+            "nodeNumber": 20,
+            "nodeType": "Forwarding"
+        },
+        {
+            "nodeNumber": 21,
+            "nodeType": "Forwarding"
+        },
+        {
+            "nodeNumber": 22,
+            "nodeType": "Forwarding"
+        },
+        {
+            "nodeNumber": 23,
+            "nodeType": "Forwarding"
+        },
+        {
+            "nodeNumber": 24,
+            "nodeType": "Forwarding"
+        },
+        {
+            "nodeNumber": 26,
+            "nodeType": "Forwarding"
+        },
+        {
+            "nodeNumber": 28,
+            "nodeType": "Forwarding"
+        },
+        {
+            "nodeNumber": 29,
+            "nodeType": "Forwarding"
+        },
+        {
+            "nodeNumber": 30,
+            "nodeType": "Forwarding"
+        },
+        {
+            "nodeNumber": 33,
+            "nodeType": "Forwarding"
+        },
+        {
+            "nodeNumber": 35,
+            "nodeType": "Forwarding"
+        },
+        {
+            "nodeNumber": 36,
+            "nodeType": "Forwarding"
+        },
+        {
+            "nodeNumber": 37,
+            "nodeType": "Forwarding"
+        },
+        {
+            "nodeNumber": 38,
+            "nodeType": "Forwarding"
+        },
+        {
+            "nodeNumber": 39,
+            "nodeType": "Forwarding"
+        },
+        {
+            "nodeNumber": 27,
+            "nodeType": "MEC_Server",
+            "vms": [
+                {
+                    "vmNumber": 1,
+                    "cpu": 3,
+                    "ram": 2253,
+                    "containers": [
+                        {
+                            "ctnNumber": 1,
+                            "cpu": 0.5,
+                            "ram": 512
+                        },
+                        {
+                            "ctnNumber": 3,
+                            "cpu": 0.5,
+                            "ram": 512
+                        },
+                        {
+                            "ctnNumber": 5,
+                            "cpu": 0.5,
+                            "ram": 512
+                        },
+                        {
+                            "ctnNumber": 7,
+                            "cpu": 0.5,
+                            "ram": 512
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "nodeNumber": 6,
+            "nodeType": "Base_Station",
+            "vms": [
+                {
+                    "vmNumber": 2,
+                    "cpu": 1,
+                    "ram": 2253,
+                    "containers": [
+                        {
+                            "ctnNumber": 2,
+                            "cpu": 0.2,
+                            "ram": 512
+                        },
+                        {
+                            "ctnNumber": 4,
+                            "cpu": 0.2,
+                            "ram": 512
+                        },
+                        {
+                            "ctnNumber": 6,
+                            "cpu": 0.2,
+                            "ram": 512
+                        },
+                        {
+                            "ctnNumber": 8,
+                            "cpu": 0.2,
+                            "ram": 512
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "links": [
+        {
+            "linkType": "Nodes",
+            "Connections": [
+                {
+                    "linkNumber": 1,
+                    "from_node": 0,
+                    "to_node": 16,
+                    "delay": 0.263,
+                    "capacity": 50.0
+                },
+                {
+                    "linkNumber": 3,
+                    "from_node": 1,
+                    "to_node": 28,
+                    "delay": 0.19,
+                    "capacity": 50.0
+                },
+                {
+                    "linkNumber": 5,
+                    "from_node": 1,
+                    "to_node": 26,
+                    "delay": 0.259,
+                    "capacity": 50.0
+                },
+                {
+                    "linkNumber": 7,
+                    "from_node": 1,
+                    "to_node": 12,
+                    "delay": 0.094,
+                    "capacity": 35.0
+                },
+                {
+                    "linkNumber": 9,
+                    "from_node": 2,
+                    "to_node": 24,
+                    "delay": 0.125,
+                    "capacity": 50.0
+                },
+                {
+                    "linkNumber": 11,
+                    "from_node": 3,
+                    "to_node": 12,
+                    "delay": 0.086,
+                    "capacity": 100.0
+                },
+                {
+                    "linkNumber": 13,
+                    "from_node": 4,
+                    "to_node": 27,
+                    "delay": 0.225,
+                    "capacity": 50.0
+                },
+                {
+                    "linkNumber": 15,
+                    "from_node": 4,
+                    "to_node": 12,
+                    "delay": 0.191,
+                    "capacity": 50.0
+                },
+                {
+                    "linkNumber": 17,
+                    "from_node": 5,
+                    "to_node": 33,
+                    "delay": 0.143,
+                    "capacity": 50.0
+                },
+                {
+                    "linkNumber": 19,
+                    "from_node": 6,
+                    "to_node": 33,
+                    "delay": 0.178,
+                    "capacity": 50.0
+                },
+                {
+                    "linkNumber": 21,
+                    "from_node": 6,
+                    "to_node": 27,
+                    "delay": 0.252,
+                    "capacity": 50.0
+                },
+                {
+                    "linkNumber": 23,
+                    "from_node": 7,
+                    "to_node": 26,
+                    "delay": 0.231,
+                    "capacity": 50.0
+                },
+                {
+                    "linkNumber": 25,
+                    "from_node": 7,
+                    "to_node": 19,
+                    "delay": 0.212,
+                    "capacity": 50.0
+                },
+                {
+                    "linkNumber": 27,
+                    "from_node": 7,
+                    "to_node": 14,
+                    "delay": 0.132,
+                    "capacity": 50.0
+                },
+                {
+                    "linkNumber": 29,
+                    "from_node": 7,
+                    "to_node": 15,
+                    "delay": 0.25,
+                    "capacity": 50.0
+                },
+                {
+                    "linkNumber": 31,
+                    "from_node": 8,
+                    "to_node": 33,
+                    "delay": 0.234,
+                    "capacity": 50.0
+                },
+                {
+                    "linkNumber": 33,
+                    "from_node": 8,
+                    "to_node": 23,
+                    "delay": 0.034,
+                    "capacity": 10.0
+                },
+                {
+                    "linkNumber": 35,
+                    "from_node": 9,
+                    "to_node": 30,
+                    "delay": 0.256,
+                    "capacity": 50.0
+                },
+                {
+                    "linkNumber": 37,
+                    "from_node": 10,
+                    "to_node": 19,
+                    "delay": 0.05,
+                    "capacity": 20.0
+                },
+                {
+                    "linkNumber": 39,
+                    "from_node": 10,
+                    "to_node": 11,
+                    "delay": 0.093,
+                    "capacity": 10.0
+                },
+                {
+                    "linkNumber": 41,
+                    "from_node": 10,
+                    "to_node": 21,
+                    "delay": 0.152,
+                    "capacity": 50.0
+                },
+                {
+                    "linkNumber": 43,
+                    "from_node": 11,
+                    "to_node": 27,
+                    "delay": 0.013,
+                    "capacity": 50.0
+                },
+                {
+                    "linkNumber": 45,
+                    "from_node": 11,
+                    "to_node": 17,
+                    "delay": 0.289,
+                    "capacity": 50.0
+                },
+                {
+                    "linkNumber": 47,
+                    "from_node": 11,
+                    "to_node": 19,
+                    "delay": 0.157,
+                    "capacity": 50.0
+                },
+                {
+                    "linkNumber": 49,
+                    "from_node": 11,
+                    "to_node": 18,
+                    "delay": 0.067,
+                    "capacity": 62.5
+                },
+                {
+                    "linkNumber": 51,
+                    "from_node": 12,
+                    "to_node": 35,
+                    "delay": 0.22,
+                    "capacity": 50.0
+                },
+                {
+                    "linkNumber": 53,
+                    "from_node": 13,
+                    "to_node": 24,
+                    "delay": 0.258,
+                    "capacity": 50.0
+                },
+                {
+                    "linkNumber": 55,
+                    "from_node": 13,
+                    "to_node": 33,
+                    "delay": 0.209,
+                    "capacity": 50.0
+                },
+                {
+                    "linkNumber": 57,
+                    "from_node": 13,
+                    "to_node": 28,
+                    "delay": 0.241,
+                    "capacity": 50.0
+                },
+                {
+                    "linkNumber": 59,
+                    "from_node": 14,
+                    "to_node": 18,
+                    "delay": 0.08,
+                    "capacity": 75.0
+                },
+                {
+                    "linkNumber": 61,
+                    "from_node": 16,
+                    "to_node": 26,
+                    "delay": 0.274,
+                    "capacity": 50.0
+                },
+                {
+                    "linkNumber": 63,
+                    "from_node": 17,
+                    "to_node": 32,
+                    "delay": 0.253,
+                    "capacity": 50.0
+                },
+                {
+                    "linkNumber": 65,
+                    "from_node": 19,
+                    "to_node": 29,
+                    "delay": 0.196,
+                    "capacity": 50.0
+                },
+                {
+                    "linkNumber": 67,
+                    "from_node": 19,
+                    "to_node": 38,
+                    "delay": 0.056,
+                    "capacity": 20.0
+                },
+                {
+                    "linkNumber": 69,
+                    "from_node": 20,
+                    "to_node": 34,
+                    "delay": 0.218,
+                    "capacity": 50.0
+                },
+                {
+                    "linkNumber": 71,
+                    "from_node": 20,
+                    "to_node": 23,
+                    "delay": 0.175,
+                    "capacity": 50.0
+                },
+                {
+                    "linkNumber": 73,
+                    "from_node": 22,
+                    "to_node": 30,
+                    "delay": 0.128,
+                    "capacity": 50.0
+                },
+                {
+                    "linkNumber": 75,
+                    "from_node": 23,
+                    "to_node": 27,
+                    "delay": 0.2,
+                    "capacity": 50.0
+                },
+                {
+                    "linkNumber": 77,
+                    "from_node": 25,
+                    "to_node": 31,
+                    "delay": 0.091,
+                    "capacity": 50.0
+                },
+                {
+                    "linkNumber": 79,
+                    "from_node": 27,
+                    "to_node": 28,
+                    "delay": 0.156,
+                    "capacity": 50.0
+                },
+                {
+                    "linkNumber": 81,
+                    "from_node": 27,
+                    "to_node": 31,
+                    "delay": 0.249,
+                    "capacity": 50.0
+                },
+                {
+                    "linkNumber": 83,
+                    "from_node": 29,
+                    "to_node": 36,
+                    "delay": 0.179,
+                    "capacity": 50.0
+                },
+                {
+                    "linkNumber": 85,
+                    "from_node": 29,
+                    "to_node": 30,
+                    "delay": 0.095,
+                    "capacity": 75.0
+                },
+                {
+                    "linkNumber": 87,
+                    "from_node": 30,
+                    "to_node": 36,
+                    "delay": 0.287,
+                    "capacity": 50.0
+                },
+                {
+                    "linkNumber": 89,
+                    "from_node": 30,
+                    "to_node": 39,
+                    "delay": 0.256,
+                    "capacity": 50.0
+                },
+                {
+                    "linkNumber": 91,
+                    "from_node": 34,
+                    "to_node": 38,
+                    "delay": 0.109,
+                    "capacity": 50.0
+                },
+                {
+                    "linkNumber": 93,
+                    "from_node": 35,
+                    "to_node": 37,
+                    "delay": 0.291,
+                    "capacity": 50.0
+                }
+            ]
+        }
+    ]
+}

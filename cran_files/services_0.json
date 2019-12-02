@@ -1,0 +1,60 @@
+{
+    "services": [
+        {
+            "flows": [
+                {
+                    "flowIdentifier": 1,
+                    "bandwidth": 35.0,
+                    "nodes": [
+                        27,
+                        4,
+                        12,
+                        1,
+                        28,
+                        13,
+                        33,
+                        6
+                    ],
+                    "ctn_source_num": 1,
+                    "ctn_target_num": 2
+                },
+                {
+                    "flowIdentifier": 2,
+                    "bandwidth": 50.0,
+                    "nodes": [
+                        27,
+                        6
+                    ],
+                    "ctn_source_num": 3,
+                    "ctn_target_num": 4
+                },
+                {
+                    "flowIdentifier": 3,
+                    "bandwidth": 10.0,
+                    "nodes": [
+                        27,
+                        23,
+                        8,
+                        33,
+                        6
+                    ],
+                    "ctn_source_num": 5,
+                    "ctn_target_num": 6
+                },
+                {
+                    "flowIdentifier": 4,
+                    "bandwidth": 5.0,
+                    "nodes": [
+                        27,
+                        28,
+                        13,
+                        33,
+                        6
+                    ],
+                    "ctn_source_num": 7,
+                    "ctn_target_num": 8
+                }
+            ]
+        }
+    ]
+}

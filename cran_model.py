@@ -100,10 +100,10 @@ class CRANModel:
                         x[a] * y[b] * 2500)
 
         # Link capacity constraint
-        #for link in self.topology.get_links():
-        #    mdl.add_constraint(mdl.sum(r[path] * int(link in path.links) 
-        #        for path in self.topology.get_paths()) <=
-        #        link.capacity)
+        for link in self.topology.get_links():
+            mdl.add_constraint(mdl.sum(r[path] * int(link in path.links) 
+                for path in self.topology.get_paths()) <=
+                link.capacity)
 
 
         mdl.print_information()

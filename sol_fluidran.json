@@ -1,0 +1,723 @@
+{
+  "objective_value": 16.5, 
+  "splits_fluidran": [
+    {
+      "node": 8, 
+      "x": 1.0, 
+      "type": "CU", 
+      "y": 1.0, 
+      "traffic": 150
+    }, 
+    {
+      "node": 15, 
+      "delay_requirement": 6000, 
+      "traffic": 150, 
+      "y": 0, 
+      "x": 1.0, 
+      "type": "RU", 
+      "bandwidth_cu_ru": 154.5
+    }, 
+    {
+      "node": 1, 
+      "delay_requirement": 6000, 
+      "traffic": 150, 
+      "y": 0, 
+      "x": 1.0, 
+      "type": "RU", 
+      "bandwidth_cu_ru": 154.5
+    }, 
+    {
+      "node": 25, 
+      "delay_requirement": 6000, 
+      "traffic": 150, 
+      "y": 0, 
+      "x": 1.0, 
+      "type": "RU", 
+      "bandwidth_cu_ru": 154.5
+    }, 
+    {
+      "node": 16, 
+      "delay_requirement": 6000, 
+      "traffic": 150, 
+      "y": 0, 
+      "x": 1.0, 
+      "type": "RU", 
+      "bandwidth_cu_ru": 154.5
+    }, 
+    {
+      "node": 24, 
+      "delay_requirement": 6000, 
+      "traffic": 150, 
+      "y": 0, 
+      "x": 1.0, 
+      "type": "RU", 
+      "bandwidth_cu_ru": 154.5
+    }, 
+    {
+      "node": 9, 
+      "delay_requirement": 6000, 
+      "traffic": 150, 
+      "y": 0, 
+      "x": 1.0, 
+      "type": "RU", 
+      "bandwidth_cu_ru": 154.5
+    }, 
+    {
+      "node": 2, 
+      "delay_requirement": 6000, 
+      "traffic": 150, 
+      "y": 0, 
+      "x": 1.0, 
+      "type": "RU", 
+      "bandwidth_cu_ru": 154.5
+    }, 
+    {
+      "node": 29, 
+      "delay_requirement": 6000, 
+      "traffic": 150, 
+      "y": 0, 
+      "x": 1.0, 
+      "type": "RU", 
+      "bandwidth_cu_ru": 154.5
+    }, 
+    {
+      "node": 6, 
+      "delay_requirement": 6000, 
+      "traffic": 150, 
+      "y": 0, 
+      "x": 1.0, 
+      "type": "RU", 
+      "bandwidth_cu_ru": 154.5
+    }, 
+    {
+      "node": 20, 
+      "delay_requirement": 6000, 
+      "traffic": 150, 
+      "y": 0, 
+      "x": 1.0, 
+      "type": "RU", 
+      "bandwidth_cu_ru": 154.5
+    }, 
+    {
+      "node": 28, 
+      "delay_requirement": 6000, 
+      "traffic": 150, 
+      "y": 0, 
+      "x": 1.0, 
+      "type": "RU", 
+      "bandwidth_cu_ru": 154.5
+    }
+  ], 
+  "num_paths_processed": 203, 
+  "flows": [
+    {
+      "path": {
+        "category": 3, 
+        "target": 29, 
+        "seq": [
+          [
+            8, 
+            0
+          ], 
+          [
+            0, 
+            13
+          ], 
+          [
+            13, 
+            24
+          ], 
+          [
+            24, 
+            29
+          ]
+        ], 
+        "delay": 751, 
+        "source": 8, 
+        "cost": 0, 
+        "id": 399
+      }, 
+      "id": "r_n_399", 
+      "value": 73.0
+    }, 
+    {
+      "path": {
+        "category": 3, 
+        "target": 15, 
+        "seq": [
+          [
+            8, 
+            10
+          ], 
+          [
+            10, 
+            15
+          ]
+        ], 
+        "delay": 132, 
+        "source": 8, 
+        "cost": 0, 
+        "id": 274
+      }, 
+      "id": "r_n_274", 
+      "value": 154.5
+    }, 
+    {
+      "path": {
+        "category": 3, 
+        "target": 29, 
+        "seq": [
+          [
+            8, 
+            28
+          ], 
+          [
+            28, 
+            26
+          ], 
+          [
+            26, 
+            16
+          ], 
+          [
+            16, 
+            14
+          ], 
+          [
+            14, 
+            29
+          ]
+        ], 
+        "delay": 882, 
+        "source": 8, 
+        "cost": 0, 
+        "id": 411
+      }, 
+      "id": "r_n_411", 
+      "value": 81.5
+    }, 
+    {
+      "path": {
+        "category": 3, 
+        "target": 6, 
+        "seq": [
+          [
+            8, 
+            0
+          ], 
+          [
+            0, 
+            13
+          ], 
+          [
+            13, 
+            24
+          ], 
+          [
+            24, 
+            29
+          ], 
+          [
+            29, 
+            12
+          ], 
+          [
+            12, 
+            4
+          ], 
+          [
+            4, 
+            20
+          ], 
+          [
+            20, 
+            18
+          ], 
+          [
+            18, 
+            16
+          ], 
+          [
+            16, 
+            26
+          ], 
+          [
+            26, 
+            7
+          ], 
+          [
+            7, 
+            3
+          ], 
+          [
+            3, 
+            6
+          ]
+        ], 
+        "delay": 2958, 
+        "source": 8, 
+        "cost": 0, 
+        "id": 418
+      }, 
+      "id": "r_n_418", 
+      "value": 154.5
+    }, 
+    {
+      "path": {
+        "category": 3, 
+        "target": 1, 
+        "seq": [
+          [
+            8, 
+            28
+          ], 
+          [
+            28, 
+            26
+          ], 
+          [
+            26, 
+            7
+          ], 
+          [
+            7, 
+            3
+          ], 
+          [
+            3, 
+            1
+          ]
+        ], 
+        "delay": 990, 
+        "source": 8, 
+        "cost": 0, 
+        "id": 292
+      }, 
+      "id": "r_n_292", 
+      "value": 154.5
+    }, 
+    {
+      "path": {
+        "category": 3, 
+        "target": 25, 
+        "seq": [
+          [
+            8, 
+            0
+          ], 
+          [
+            0, 
+            13
+          ], 
+          [
+            13, 
+            24
+          ], 
+          [
+            24, 
+            29
+          ], 
+          [
+            29, 
+            12
+          ], 
+          [
+            12, 
+            4
+          ], 
+          [
+            4, 
+            20
+          ], 
+          [
+            20, 
+            18
+          ], 
+          [
+            18, 
+            16
+          ], 
+          [
+            16, 
+            26
+          ], 
+          [
+            26, 
+            7
+          ], 
+          [
+            7, 
+            3
+          ], 
+          [
+            3, 
+            6
+          ], 
+          [
+            6, 
+            25
+          ]
+        ], 
+        "delay": 3180, 
+        "source": 8, 
+        "cost": 0, 
+        "id": 293
+      }, 
+      "id": "r_n_293", 
+      "value": 154.5
+    }, 
+    {
+      "path": {
+        "category": 3, 
+        "target": 20, 
+        "seq": [
+          [
+            8, 
+            0
+          ], 
+          [
+            0, 
+            13
+          ], 
+          [
+            13, 
+            24
+          ], 
+          [
+            24, 
+            29
+          ], 
+          [
+            29, 
+            12
+          ], 
+          [
+            12, 
+            4
+          ], 
+          [
+            4, 
+            20
+          ]
+        ], 
+        "delay": 1481, 
+        "source": 8, 
+        "cost": 0, 
+        "id": 441
+      }, 
+      "id": "r_n_441", 
+      "value": 154.5
+    }, 
+    {
+      "path": {
+        "category": 3, 
+        "target": 16, 
+        "seq": [
+          [
+            8, 
+            28
+          ], 
+          [
+            28, 
+            26
+          ], 
+          [
+            26, 
+            16
+          ]
+        ], 
+        "delay": 385, 
+        "source": 8, 
+        "cost": 0, 
+        "id": 325
+      }, 
+      "id": "r_n_325", 
+      "value": 154.5
+    }, 
+    {
+      "path": {
+        "category": 3, 
+        "target": 24, 
+        "seq": [
+          [
+            8, 
+            0
+          ], 
+          [
+            0, 
+            13
+          ], 
+          [
+            13, 
+            24
+          ]
+        ], 
+        "delay": 575, 
+        "source": 8, 
+        "cost": 0, 
+        "id": 333
+      }, 
+      "id": "r_n_333", 
+      "value": 154.5
+    }, 
+    {
+      "path": {
+        "category": 3, 
+        "target": 28, 
+        "seq": [
+          [
+            8, 
+            28
+          ]
+        ], 
+        "delay": 131, 
+        "source": 8, 
+        "cost": 0, 
+        "id": 476
+      }, 
+      "id": "r_n_476", 
+      "value": 154.5
+    }, 
+    {
+      "path": {
+        "category": 3, 
+        "target": 9, 
+        "seq": [
+          [
+            8, 
+            0
+          ], 
+          [
+            0, 
+            13
+          ], 
+          [
+            13, 
+            24
+          ], 
+          [
+            24, 
+            9
+          ]
+        ], 
+        "delay": 731, 
+        "source": 8, 
+        "cost": 0, 
+        "id": 355
+      }, 
+      "id": "r_n_355", 
+      "value": 154.5
+    }, 
+    {
+      "path": {
+        "category": 3, 
+        "target": 2, 
+        "seq": [
+          [
+            8, 
+            0
+          ], 
+          [
+            0, 
+            13
+          ], 
+          [
+            13, 
+            24
+          ], 
+          [
+            24, 
+            9
+          ], 
+          [
+            9, 
+            19
+          ], 
+          [
+            19, 
+            2
+          ]
+        ], 
+        "delay": 1002, 
+        "source": 8, 
+        "cost": 0, 
+        "id": 377
+      }, 
+      "id": "r_n_377", 
+      "value": 154.5
+    }
+  ], 
+  "centralization_degree": 0.4, 
+  "is_optimal": true, 
+  "splits": [
+    {
+      "node": 8, 
+      "f1": 1, 
+      "f2": 1, 
+      "f3": 1, 
+      "f4": 1, 
+      "f5": 0, 
+      "traffic": 150, 
+      "type": "CU"
+    }, 
+    {
+      "node": 15, 
+      "f1": 1, 
+      "f2": 1, 
+      "f3": 1, 
+      "f4": 0, 
+      "f5": 0, 
+      "traffic": 150, 
+      "delay_requirement": 6000, 
+      "bandwidth_epc_ru": 0, 
+      "type": "RU", 
+      "bandwidth_cu_ru": 150
+    }, 
+    {
+      "node": 1, 
+      "f1": 1, 
+      "f2": 1, 
+      "f3": 1, 
+      "f4": 0, 
+      "f5": 0, 
+      "traffic": 150, 
+      "delay_requirement": 6000, 
+      "bandwidth_epc_ru": 0, 
+      "type": "RU", 
+      "bandwidth_cu_ru": 150
+    }, 
+    {
+      "node": 25, 
+      "f1": 1, 
+      "f2": 1, 
+      "f3": 1, 
+      "f4": 0, 
+      "f5": 0, 
+      "traffic": 150, 
+      "delay_requirement": 6000, 
+      "bandwidth_epc_ru": 0, 
+      "type": "RU", 
+      "bandwidth_cu_ru": 150
+    }, 
+    {
+      "node": 16, 
+      "f1": 1, 
+      "f2": 1, 
+      "f3": 1, 
+      "f4": 0, 
+      "f5": 0, 
+      "traffic": 150, 
+      "delay_requirement": 6000, 
+      "bandwidth_epc_ru": 0, 
+      "type": "RU", 
+      "bandwidth_cu_ru": 150
+    }, 
+    {
+      "node": 24, 
+      "f1": 1, 
+      "f2": 1, 
+      "f3": 1, 
+      "f4": 0, 
+      "f5": 0, 
+      "traffic": 150, 
+      "delay_requirement": 6000, 
+      "bandwidth_epc_ru": 0, 
+      "type": "RU", 
+      "bandwidth_cu_ru": 150
+    }, 
+    {
+      "node": 9, 
+      "f1": 1, 
+      "f2": 1, 
+      "f3": 1, 
+      "f4": 0, 
+      "f5": 0, 
+      "traffic": 150, 
+      "delay_requirement": 6000, 
+      "bandwidth_epc_ru": 0, 
+      "type": "RU", 
+      "bandwidth_cu_ru": 150
+    }, 
+    {
+      "node": 2, 
+      "f1": 1, 
+      "f2": 1, 
+      "f3": 1, 
+      "f4": 0, 
+      "f5": 0, 
+      "traffic": 150, 
+      "delay_requirement": 6000, 
+      "bandwidth_epc_ru": 0, 
+      "type": "RU", 
+      "bandwidth_cu_ru": 150
+    }, 
+    {
+      "node": 29, 
+      "f1": 1, 
+      "f2": 1, 
+      "f3": 1, 
+      "f4": 0, 
+      "f5": 0, 
+      "traffic": 150, 
+      "delay_requirement": 6000, 
+      "bandwidth_epc_ru": 0, 
+      "type": "RU", 
+      "bandwidth_cu_ru": 150
+    }, 
+    {
+      "node": 6, 
+      "f1": 1, 
+      "f2": 1, 
+      "f3": 1, 
+      "f4": 0, 
+      "f5": 0, 
+      "traffic": 150, 
+      "delay_requirement": 6000, 
+      "bandwidth_epc_ru": 0, 
+      "type": "RU", 
+      "bandwidth_cu_ru": 150
+    }, 
+    {
+      "node": 20, 
+      "f1": 1, 
+      "f2": 1, 
+      "f3": 1, 
+      "f4": 0, 
+      "f5": 0, 
+      "traffic": 150, 
+      "delay_requirement": 6000, 
+      "bandwidth_epc_ru": 0, 
+      "type": "RU", 
+      "bandwidth_cu_ru": 150
+    }, 
+    {
+      "node": 28, 
+      "f1": 1, 
+      "f2": 1, 
+      "f3": 1, 
+      "f4": 0, 
+      "f5": 0, 
+      "traffic": 150, 
+      "delay_requirement": 6000, 
+      "bandwidth_epc_ru": 0, 
+      "type": "RU", 
+      "bandwidth_cu_ru": 150
+    }
+  ], 
+  "rus_id": [
+    15, 
+    1, 
+    25, 
+    16, 
+    24, 
+    9, 
+    2, 
+    29, 
+    6, 
+    20, 
+    28
+  ], 
+  "cu_id": 8, 
+  "type": "FluidRAN", 
+  "centralization_degree_fluidran": 0.6666666666666666
+}
